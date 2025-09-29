@@ -68,6 +68,9 @@ body {
 
 
                 }
+                button.btn:hover{
+                    cursor:grab;
+                }
             }
 
             div.weather {
