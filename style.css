@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: #222;
+
+    main {
+        div {
+            margin-bottom: 30px;
+        }
+
+        div.card {
+            width: 90%;
+            max-width: 470px;
+            background: linear-gradient(135deg, #00feba, #5b548a);
+            color: #fff;
+            margin: 100px auto 0;
+            border-radius: 20px;
+            padding: 40px 35px;
+            text-align: center;
+
+            div.search {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+
+                input {
+                    border: 0;
+                    outline: 0;
+                    background: #ebfffc;
+                    color: #555;
+                    padding: 10px 25px;
+                    height: 60px;
+                    border-radius: 30px;
+                    flex: 1;
+                    margin-right: 16px;
+                    font-size: 18px;
+                }
+
+                button.btn {
+                    display: inline-flex;
+
+                    align-items: center;
+                    justify-content: center;
+                    width: 40px;
+
+                    height: 40px;
+
+                    color: white;
+                    background: transparent;
+
+                    border-radius: 50%;
+
+                    font-size: 20px;
+                    border: none;
+
+                    i {
+                        font-size: 60px;
+                        /* filter: drop-shadow(0px 10px 4px black); */
+                        border-radius: 15px;
+                    }
+
+
+                }
+            }
+
+            div.weather {
+                img.weather_icon {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 20px;
+                    margin-bottom:20px;
+                }
+                h1{
+                    font-size:80px;
+                    font-weight: 500;
+                }
+                h2{
+                    font-size:45px;
+                    font-weight: 500;
+                    margin-top:-10px;
+                }
+            }
+
+            div.detailes {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 20px;
+                margin-top: 5%;
+                div.col {
+                    display: flex;
+                    align-items: center;
+                    text-align: left;
+                   
+                    img {
+                        width: 80px;
+                        height: 80px;
+
+                        background: transparent;
+                    }
+
+                    .wind-img {
+                        border-radius: 20px;
+                    }
+                }
+            }
+
+
+        }
+    }
+}
